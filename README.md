@@ -52,5 +52,3 @@ Ce projet montre différentes méthodes d'injection de dépendances en Java, inc
 Projet réalisé par : Mohamed Lakssir 2ACI Info 
 
 ```
-
-Ajoute ces éléments dans ton projet GitHub et modifie-les selon les besoins spécifiques de ton projet.
