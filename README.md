@@ -1,10 +1,3 @@
-Voici un exemple de message de commit et de contenu pour le fichier `README.md` que tu peux utiliser pour ton projet sur GitHub :
-
-### Message du commit :
-```bash
-git commit -m "Ajout des interfaces IDao et IMetier avec implémentations, injection de dépendances (statique, dynamique et via Spring)"
-```
-
 ### Contenu du fichier `README.md` :
 
 ```markdown
@@ -56,7 +49,7 @@ Ce projet montre différentes méthodes d'injection de dépendances en Java, inc
 
 ## Auteurs
 
-Projet réalisé par : [Ton Nom]
+Projet réalisé par : Mohamed Lakssir 2ACI Info 
 
 ```
 
