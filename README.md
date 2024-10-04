@@ -51,4 +51,3 @@ Ce projet montre différentes méthodes d'injection de dépendances en Java, inc
 
 Projet réalisé par : Mohamed Lakssir 2ACI Info 
 
-```
