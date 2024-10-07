@@ -1,25 +1,18 @@
 package metier;
 
 import dao.IDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class MetierImpl implements IMetier {
-    private IDao dao; // Couplage faible
-
-    public MetierImpl(IDao dao) {
-        this.dao = dao;
-    }
-
-    @Override
-    public double calcul() {
-        double d = dao.getData();
-        double res= d*13;
-        return res;
-    }
-
-    /*
-    Pour Injecter dans la variable dao
-    un objet d'une classe qui implémente l'interface IDao
-     */
     public void setDao(IDao dao) {
         this.dao = dao;
+    }
+    @Autowired
+    private IDao dao;
+    @Override
+    public double calcul() {
+        return dao.getData() * 2;
     }
 }
